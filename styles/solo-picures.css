@@ -1,0 +1,86 @@
+.solo-pictures-container {
+    height: auto;
+    width: 100vw;
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2, h2 span {
+        font-size: 64pt;
+    }
+
+    .collection-container-grid{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        padding: 2rem 3rem;
+
+        /*Carousel Image CSS*/
+        .carousel-box {
+            box-shadow: 0 0 24px var(--davys-gray);
+            width: 400px;
+            height: 450px;
+            overflow: hidden;
+            top: 10px;
+            border-radius: 10%;
+        }
+
+        .carousel-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+
+            .carousel-images {
+                display: flex;
+                transition: transform 1s ease-in-out;
+                border-radius: 10%;
+
+                img {
+                    width: 300px;
+                    height: 450px;
+                    object-fit: cover;
+                    border-radius: 10%;
+                    z-index: -1;
+                }
+
+            }
+        }
+    }
+
+    .prev-btn, .next-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-10%);
+        padding: .8rem;
+        background-color: var(--amaranth-pink);
+        color: var(--davys-gray);
+        border: none;
+        border-radius: 10%;
+        cursor: pointer;
+        box-shadow: 0 0 20px var(--amaranth-pink);
+    }
+
+    .prev-btn {
+        left: 1.4rem;
+    }
+
+    .next-btn {
+        right: 1.4rem;
+    }
+
+    .images-description-container {
+        display: flex;
+        align-items: center;
+
+        p {
+            font-size: 12pt;
+            font-family: Inter, sans-serif;
+            font-weight: 200;
+            line-height: 24px;
+        }
+    }
+}
+

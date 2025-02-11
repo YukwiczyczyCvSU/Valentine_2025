@@ -1,0 +1,48 @@
+@import "color.css";
+
+.introduction-container {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 8rem;
+    gap: 4rem;
+
+    /*Introduction-picture editing section*/
+    .introduction-picture {
+        position: relative;
+
+        .picture-shadow {
+            height: 100px;
+            width: 600px;
+            background-color: #59575877;
+            position: absolute;
+            top: 14rem;
+            left: -2.8rem;
+            border-radius: 50%;
+            z-index: -1;
+            filter: blur(10px);
+        }
+    }
+
+    .introduction-text h2 {
+        margin-bottom: 12px;
+    }
+
+    /*Introduction-text editing section*/
+    .introduction-text h2, .introduction-text h2 span {
+        font-size: 48pt;
+    }
+
+    /*Paragraph editing section*/
+    .introduction-text p {
+        font-family: Inter, sans-serif;
+        font-weight: 200;
+        font-size: 8pt;
+        margin-bottom:16px;
+        line-height: 18px;
+    }
+
+
+}

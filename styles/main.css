@@ -1,0 +1,72 @@
+@import "color.css";
+@import "introduction.css";
+@import "short-letter.css";
+@import "solo-picures.css";
+@import "our-pictures.css";
+@import "valentines-card.css";
+@import "valentine-question.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(--davys-gray);
+    font-family: "Amatic SC", sans-serif;
+    list-style: none;
+    font-size: 16pt;
+}
+
+/*Section for making text to pink*/
+span {
+    color: var(--amaranth-pink);
+}
+
+/*Changing the color of the link when hovered*/
+a:hover {
+    color: var(--amaranth-pink);
+    font-weight: bold;
+}
+
+/*Header styling*/
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 8rem 1rem 6rem;
+    box-shadow: 0 2px 16px var(--pale-purple);
+    width: 100vw;
+
+    .header-logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: .4rem;
+        font-weight: bold;
+        font-size: 32pt;
+
+
+        h1, span {
+            font-size: 2.8rem;
+        }
+
+        div p, div span {
+            display: flex;
+            align-items: flex-end;
+            height: 2.2rem;
+            font-size: .6rem;
+        }
+    }
+
+    div nav ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 1.4rem;
+    }
+}
+
+/*The content-container design*/
+.content-container {
+    display: flex;
+    flex-direction: column;
+}

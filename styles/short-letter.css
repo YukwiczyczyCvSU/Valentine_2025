@@ -1,0 +1,23 @@
+@import "color.css";
+
+.short-letter-container {
+    height: auto;
+    width: 100vw;
+    padding: 2rem 8rem;
+    background-color: var(--heartful);
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: 64pt;
+        margin-bottom: 12px;
+    }
+
+    p {
+        font-family: Inter, sans-serif;
+        font-weight: 200;
+        line-height: 16px;
+        font-size: 8pt;
+        margin-bottom: 16px;
+    }
+}

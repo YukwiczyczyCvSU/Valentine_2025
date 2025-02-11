@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Persephone</title>
+    
+    <!--    Linking personal css file-->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Link for font to be used in this website -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+            <div class="header-logo">
+                <h1>VALENTINE<span>2025</span></h1>
+                <div>
+                    <p>FROM <span>R</span></p>
+                </div>
+            </div>
+
+            <div class="header-menus">
+                <nav>
+                    <ul>
+                        <li> <a href="#Active"  onclick="gotoSection('id-1')">Home</a></li>
+                        <li> <a href="#ShortLetter"  onclick="gotoSection('id-2')">Short Letter</a></li>
+                        <li> <a href="#SoloImages"  onclick="gotoSection('id-3')">Your Images</a></li>
+                        <li> <a href="#CoupleImages"  onclick="gotoSection('id-4')">Our Images</a></li>
+                        <li> <a href="#ValentinesCard"  onclick="gotoSection('id-5')">Happy Valentines</a></li>
+                        <li> <a href="#TheQuestion"  onclick="gotoSection('id-6')">Question</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+
+
+    <div class="content-container">
+        <!-- For the introduction part of the website-->
+        <div class="introduction-container" id="id-1">
+            <div class="introduction-picture">
+                <img src="styles/images/introduction-pictures/nonsolo_1.jpg" alt="Our fine picture" height="350px">
+
+                <div class="picture-shadow"></div>
+            </div>
+            <div class="introduction-text">
+                <h2>For my dear <span>Love</span>,</h2>
+
+                <p>Hello my love, I know it been almost a month since I confessed personally and through online (hehehe). You have been my classmate, my tutor, and my close friend from these past years. It is really puzzling to know the reason behind the feelings of being comfortable with you in earlier years of our friendship. Despite that, I met you with detective, attentive, and supportive kind of friend.</p>
+
+                <p>You've been a significant person in my life even before entering this year 2025. I would like to express my deepest feelings for you in this website that I have created.</p>
+
+                <p>Hence, in this Valentine's Day, I would like to express my feelings for you. Hence, I created this Valentines website for this year. This website contains some of my favorite collection of your pictures, our pictures, and lastly my messages.</p>
+            </div>
+        </div>
+
+        <!-- For the short message-->
+        <div class="short-letter-container" id="id-2">
+            <h2>Short Letter</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores ex itaque laudantium magnam optio placeat porro praesentium quos velit.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ea excepturi harum officia quis voluptate? Culpa dicta odio quibusdam rerum voluptatibus. Dicta eos officiis porro ut veritatis? Ab animi quo tempore temporibus! Assumenda autem dignissimos eaque enim est expedita facere, harum laborum natus, omnis perspiciatis qui quis rerum vel vitae? Accusantium at blanditiis deserunt dicta dignissimos eius ex expedita iusto molestias nihil nostrum, placeat praesentium quam qui recusandae sit tempora velit voluptate! Alias blanditiis distinctio dolor dolorum, earum excepturi exercitationem ipsa laboriosam, nihil non nostrum perspiciatis provident quam repellendus unde. A ad aliquam architecto asperiores aspernatur commodi corporis cumque cupiditate debitis deleniti dicta eaque, earum eum hic ipsa iste laudantium minima molestias mollitia necessitatibus perferendis praesentium provident quaerat quo reiciendis repellat repellendus sed sequi similique sit sunt suscipit tempore temporibus unde veritatis vero voluptas? Aliquid delectus deleniti incidunt laborum non porro, quisquam recusandae saepe sunt. Ab, aliquid animi dolores eaque enim, eos est eum ex, hic inventore ipsum laborum molestiae natus nihil nostrum nulla pariatur possimus reiciendis rem repellendus suscipit tempore veritatis vero. Ad aliquam assumenda deleniti deserunt dolor dolores ex excepturi fugiat, inventore laboriosam maiores necessitatibus nisi odit officiis quam, rem sed similique soluta sunt unde veritatis vero vitae?</p>
+        </div>
+
+        <!-- For the collection of solo pictures-->
+        <div class="solo-pictures-container" id="id-3">
+            <h2>My favorite pictures of <span>U</span></h2>
+
+            <div class="collection-container-grid">
+                <div class="carousel-container">
+                    <div class="carousel-box">
+                        <div class="carousel-images">
+                            <img src="styles/images/solo-pictures/first-moa-date.jpg" alt="Image 1" data-description='Isa sa mga magagandang kuha ko sayo (sa tinigin ko) noong unang kinonsiderang date natin sa Mall of Asia: "Naakit mo ako rito, seriously" - Your Pangga 😊😁'>
+                            <img src="styles/images/solo-pictures/happy-langga.jpg" alt="Image 2" data-description="Isa sa mga pinaka-cute na picture na kuha ko noong hindi pa ako naamin sa sayo. Ito yung naggala pa tayo sa Rizal Park at National Museum - Anthropology 🥰">
+                            <img src="styles/images/solo-pictures/intra-gala.jpg" alt="Image 3" data-description="Memorable na kuha ko sayo noong unang gala na magkasama sa Intramuros at National Museum (yung dalawang museum)">
+                            <img src="styles/images/solo-pictures/natmus-pic.jpg" alt="Image 4" data-description="Kuha ko na kung saan magkasama tayong nagagala sa National Museum - Anthropology. Gandang-ganda ako sayo that time.">
+                            <img src="styles/images/solo-pictures/bu-langga.jpg" alt="Image 4" data-description="Iilan lang sa mga pinaka nakakatuwang kuha ko sayo kasa itong 'Bu-langga' na kung saan ay naging photo bomber ka that time. 😂">
+                        </div>
+                        <button class="prev-btn">&#10094;</button>
+                        <button class="next-btn">&#10095;</button>
+                    </div>
+                </div>
+                <div class="images-description-container">
+                    <p class="description"> Isa sa mga magagandang kuha ko sayo (sa tinigin ko) noong unang kinonsiderang date natin sa Mall of Asia: "Naakit mo ako rito, seriously" - Your Pangga 😊😁 </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- For the collection of couple pictures-->
+        <div class="our-pictures-container" id="id-4">
+            <h2>My favorite pictures of <span>Us</span></h2>
+
+            <div class="second-collection-container-grid">
+                <div class="second-carousel-container">
+                    <div class="second-carousel-box">
+                        <div class="second-carousel-images">
+                            <img src="styles/images/couple-pictures/first-photobooth.jpg" alt="Image 1" data-description='One of the best moments in my life na first time ko makaranas ng photobooth. It was very special since I am with you 💚🥰'>
+                            <img src="styles/images/couple-pictures/nonsolo_1.jpg" alt="Image 2" data-description="Isa sa pinaka ka nakakakabang moment sa buhay ko. But, it was all worth it and lahat ng pag-aalala ko ay nawala nitong araw na ito. Kaya I would consider this picture the most precious and memorable picture nating dalawa.">
+                            <img src="styles/images/couple-pictures/nonsolo_3.jpg" alt="Image 3" data-description="One of the cutest picture nating dalawa, I think it ata ang time na pumunta tayong National Museum - Anthropolotgy para ituloy ang gala natin sa national museum.">
+                            <img src="styles/images/couple-pictures/hindi-pa-naamin-picture.jpg" alt="Image 4" data-description="This picture is where all of this happened. Ito yung time na halos hindi rin ako makapaniwala na ang crush ko ay maaaya ko sa gala sa Intramuros 😍. I felt little bit blessed that day.😇">
+
+                        </div>
+                        <button class="second-prev-btn">&#10094;</button>
+                        <button class="second-next-btn">&#10095;</button>
+                    </div>
+                </div>
+                <div class="second-images-description-container">
+                    <p class="second-description"> One of the best moments in my life na first time ko makaranas ng photobooth. It was very special since I am with you 💚🥰 </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- For Valentine Card creation-->
+        <div class="valentine-card-container" id="id-5">
+            <h2>Happy <span>Valentine's</span> Day Mahal</h2>
+
+            <div class="container">
+                <div class="valentines">
+                    <div class="envelope">
+                        <div class="card">
+                            <div class="text">
+                                Happy <br> Valentines's <br> Day Langga!
+                            </div>
+                            <div class="heart"></div>
+                        </div>
+                    </div>
+                    <div class="front"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- For "Will you be my valentine?" creation-->
+        <div class="question-container" id="id-6">
+            <div class="short-letter-container" id="id-6">
+                <h2>Will you be my <span>Valentine</span>?</h2>
+                <div class="buttons">
+                    <button class="yes-button" onclick="handleYesClick()">Yes</button>
+                    <button class="no-button" onclick="handleNoClick()">No</button>
+                </div>
+                <div class="gif_container">
+                    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5lenZyZHI5OXM2eW95b3pmMG40cWVrMDhtNjVuM3A4dGNxa2g2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VM1fcpu2bKs1e2Kdbj/giphy.gif" alt="Cute GIF">
+                </div>
+        </div>
+
+
+    </div>
+
+    <script src="scripts/menu-jump.js"></script>
+</body>
+</html>
